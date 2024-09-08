@@ -2,7 +2,7 @@
 using System.Net.Sockets;
 
 namespace API_C;
-public class TransportLayer(string address, int port) : IDisposable
+internal class TransportLayer(string address, int port) : IDisposable
 {
   public void Dispose()
   {
